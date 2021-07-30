@@ -1,0 +1,53 @@
+Moralis config:
+Desc:
+BalanceWatch
+
+TOPIC:
+NewDeposit(address, uint8, uint256, uint256, uint256, uint256, uint256)
+
+ABI:
+{
+  "anonymous": false,
+  "inputs": [
+    {
+      "indexed": true,
+      "name": "user",
+      "type": "address"
+    },
+    {
+      "indexed": false,
+      "name": "plan",
+      "type": "uint8"
+    },
+    {
+      "indexed": false,
+      "name": "percent",
+      "type": "uint256"
+    },
+    {
+      "indexed": false,
+      "name": "amount",
+      "type": "uint256"
+    },
+    {
+      "indexed": false,
+      "name": "profit",
+      "type": "uint256"
+    },
+    {
+      "indexed": false,
+      "name": "start",
+      "type": "uint256"
+    },
+    {
+      "indexed": false,
+      "name": "finish",
+      "type": "uint256"
+    }
+  ],
+  "name": "NewDeposit",
+  "type": "event"
+}
+
+tablename:
+PolyNewDeposit

@@ -1,0 +1,24 @@
+{
+  "name": "polygon-contract-tracker",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeere/polygon-contract-tracker.git"
+  },
+  "author": "jere jokelainen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jeere/polygon-contract-tracker/issues"
+  },
+  "homepage": "https://github.com/jeere/polygon-contract-tracker#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3",
+    "dotenv": "^10.0.0",
+    "moralis": "0.0.30"
+  }
+}
